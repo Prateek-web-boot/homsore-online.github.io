@@ -1,0 +1,178 @@
+body
+{
+	font-family: 'Raleway',sans-serif;
+}
+
+
+.navbar-brand
+{
+	font-size: 20px;
+	color: white
+}
+.navbar
+{
+	margin-left: 50px;
+	margin-right: 500px;
+	position: absolute;
+	z-index: 3;
+	right: 0;
+	left: 0;
+}
+
+.nav-link:hover
+{
+	color: #428bca;
+}
+
+.parallax
+{
+	background-image: url('https://wallpaperset.com/w/full/4/4/6/517256.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 100%;
+	min-height: 550px;
+	width: 100%;
+	height: 100%;
+}
+
+
+.btn1
+{
+	line-height: 3;
+}
+
+#parallax-2
+{
+	background-image: url('https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 300px;
+	width: 100%;
+	filter:grayscale(40%);
+	
+	
+	
+}
+
+.overlap
+{
+	z-index: 2;
+}
+
+.hover:hover
+{
+	color:#428bca;
+}
+.lead
+{
+	color: grey!important;
+}
+
+.border
+{
+	border:1px solid white;
+}
+
+.btn
+{
+	border-radius: 50px;
+}
+
+
+.map-container-2{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-2 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+
+.list h6
+{
+	font-size: 15px;
+	line-height: 2;
+}
+
+i:hover
+{
+	color: #428bca;
+}
+
+.animate-1, .animate-2, .animate-3, .animate-4, .animate-5, .animate-6, .animate-7, .animate-8, .animate-9, .animate-10, .animate-11, .animate-12, .animate-13, .animate-14, .animate-15
+{
+	opacity: 0;
+
+}
+.animate-1.animated, .animate-2.animated,.animate-3.animated,.animate-4.animated,.animate-5.animated,
+.animate-6.animated,.animate-7.animated,.animate-8.animated,.animate-9.animated,.animate-10.animated,
+.animate-11.animated,.animate-12.animated,.animate-13.animated,.animate-14.animated,.animate-15.animated
+{
+	opacity: 1;
+}
+
+
+@media (max-width: 768px)
+{
+	#alter
+	{
+        text-align: center;
+	}
+	#alter-1
+	{
+		margin-left: 200px;
+	}
+	#alter-2
+	{
+		margin-left: 200px;
+	}
+	#alter-1a
+	{
+		margin-left: 120px;
+		
+	}
+	#alter-2a
+	{
+		margin-left: 160px;
+
+	}
+	#alter-i
+	{
+        margin-left: 190px;
+	}
+	
+	#news
+	{
+		margin-left: -35px;
+	}
+
+	.counter
+	{
+		font-size: 25px;
+	}
+	
+
+}
+
+@media (max-width: 500px)
+{
+	#number
+	{
+		margin-right: 45px;
+	}
+	#block-icon
+	{
+		display: none;
+	}
+	
+}
+
+
